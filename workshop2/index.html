@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aaryan Yadav • Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header id="hero">
+        <video autoplay loop muted id="video-background">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menu-button" aria-expanded="false">☰</button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Aaryan Yadav</h1>
+            <p>Frontend Developer & UI/UX Enthusiast</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am <strong>Aaryan Yadav</strong>. I am passionate about web development, design, and building things that make life easier.</p>
+        <img src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/459986061_487254167560226_3995172753787648141_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEZR81F9XmVkJLGItJJR0NSf6nCtkO3H1N_qcK2Q7cfU1GA1wzk0WNUda7B2yGzqJlOWbgfsUwgn0A2D_AcqgZN&_nc_ohc=ZgAoZduZIHYQ7kNvwHRxIjq&_nc_oc=AdnCjwEBs8ov1H_xOsPMenCa_2IE8rb0a8CzJVbIVtd3zrZ1S_SW_mZ_4TGp6VlzQqTaSNDJjSfv1IBVW2b9G2dJ&_nc_zt=23&_nc_ht=scontent.fktm3-1.fna&_nc_gid=-Df__sLP6e2BA4HMq6HMCw&oh=00_AfhDaKp9XU1XwvVdQhi6turq0Oj0vZhPutcKgd2HFolYoQ&oe=692CA165" alt="Aaryan Yadav">
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div id="projects-grid">
+            <article class="project">
+                <h3>Portfolio Website</h3>
+                <p>A clean and responsive personal portfolio website built with HTML, CSS, and JavaScript. It showcases my skills, projects, and contact details.</p>
+            </article>
+            <article class="project">
+                <h3>To</h3>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+    <footer>
+        ©️ 2025 — Aaryan Yadav
+    </footer>
+
+</body>
+</html>
+s
